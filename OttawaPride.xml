@@ -1,0 +1,155 @@
+<?xml version="1.0" standalone="no" ?>
+<?xml-stylesheet type="text/xsl" href="brewfar1.xsl" ?>
+<!DOCTYPE beer SYSTEM "beer.dtd">
+<beer>
+  <name>Ottawa Pride</name>
+  <style>English Pale Ale</style>
+  <first-brewed>July 13, 2003</first-brewed>
+  <brewers>Mike and Nick</brewers>
+  <ingredients>
+	<fermentables>
+	  <malt>
+		<type>6 Row Pale Ale</type>
+		<qty units="kg">4.0</qty>
+		<added></added>
+	  </malt>
+	  <malt>
+		<type>Crystal Malt</type>
+		<qty units="kg">0.25</qty>
+		<added></added>
+	  </malt>
+	</fermentables>
+	<flavourings>
+	  <hop>
+		<type>Fuggles</type>
+		<acid>4.9%</acid>
+		<qty units="g">25</qty>
+		<added>FWH</added>
+	  </hop>
+	  <hop>
+		<type>Goldings</type>
+		<acid>5.0%</acid>
+		<qty units="g">30</qty>
+		<added>FWH</added>
+	  </hop>
+	  <hop>
+		<type>Goldings</type>
+		<acid>5.0%</acid>
+		<qty units="g">10</qty>
+		<added>15</added>
+	  </hop>
+	</flavourings>
+	<yeast>
+	  <type>WYeast 1098 British Ale Yeast</type>
+	  <qty units="Yeast Cake">1</qty>
+	  <added>Primary</added>
+	</yeast>
+	<priming>
+	  <type>Dextrose</type>
+	  <qty units="cup">Unknown (~0.6 cups)</qty>
+	</priming>
+  </ingredients>
+  <stats>
+	<sg>40</sg>
+	<fg>10</fg>
+	<attenuation>75.0%</attenuation>
+	<extract>80.0%</extract>
+	<colour>8</colour>
+	<ibu>34.8%</ibu>
+  </stats>
+  <log>
+	<summary>
+	  <type>Infusion Mash</type>
+	  <mashin>
+		<temp units="C">67</temp>
+		<thickness units="l/kg">2.4</thickness>
+	  </mashin>
+	  <sacharification>
+		<temp units="C">66</temp>
+		<time>97 min</time>
+	  </sacharification>
+	  <mashout>
+		<temp units="C">75</temp>
+		<time>15</time>
+	  </mashout>
+	  <sparge>
+		<temp units="C">65</temp>
+		<time>15 min</time>
+	  </sparge>
+	  <preboil>
+		<time>58 min</time>
+	  </preboil>
+	  <boil>
+		<time>90 min</time>
+	  </boil>
+	  <chill>
+		<time>28 min</time>
+	  </chill>
+	</summary>
+	<action>
+	  <time>2:27</time>
+	  <temp units="C">67</temp>
+	  <desc>Mashin with 8.5L of 83 degree water</desc>
+	</action>
+	<action>
+	  <time>3:30</time>
+	  <temp units="C">64</temp>
+	  <desc>1.5L infusion to get to 67 degrees</desc>
+	</action>
+	<action>
+	  <time>4:05</time>
+	  <temp units="C">75</temp>
+	  <desc>Infuse 8L</desc>
+	</action>
+	<action>
+	  <time>4:20</time>
+	  <desc>Start recirculation</desc>
+	</action>
+	<action>
+	  <time>4:35</time>
+	  <temp units="C">65</temp>
+	  <desc>End sparge</desc>
+	</action>
+	<action>
+	  <time>5:33</time>
+	  <desc>Boil</desc>
+	</action>
+	<action>
+	  <time>6:55</time>
+	  <desc>Add rest of hops</desc>
+	</action>
+	<action>
+	  <time>7:03</time>
+	  <desc>Boil Done</desc>
+	</action>
+	<action>
+	  <time>7:07</time>
+	  <desc>Start chill</desc>
+	</action>
+	<action>
+	  <time>7:35</time>
+	  <temp units="C">23</temp>
+	  <desc>Chill finished</desc>
+	</action>
+	<action>
+	  <time>7:47</time>
+	  <desc>Done brewing</desc>
+	</action>	
+	<action>
+	  <time>Aug 16</time>
+	  <desc>Bottle</desc>
+	</action>	
+  </log>
+  <notes>
+  <p>
+  This beer is inspired by Fuller's London Pride.  It's by no means
+  a clone (in fact it tastes very different).  But it's a very
+  pleasant pale ale.  The first thing that's noticable is that
+  the character of the Fuggles and Goldings hops comes through
+  nicely.  It's got a nice bitterness to it.  If it's missing
+  anything it's on the malt side.  I think a different yeast
+  would be needed to improve things.  However, this is a very
+  pleasant beer.  Can drink a lot of these.
+  </p>
+  </notes>
+</beer>

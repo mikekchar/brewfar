@@ -1,0 +1,184 @@
+<?xml version="1.0" standalone="no" ?>
+<?xml-stylesheet type="text/xsl" href="brewfar1.xsl" ?>
+<!DOCTYPE beer PUBLIC "-//MKC/Beer 0.01//EN" "http://rook.dyndns.org/pub-beer/beer.dtd">
+<beer>
+  <name>Trilobyte Brown</name>
+  <style>American Brown Ale</style>
+  <first-brewed>June 15, 2003</first-brewed>
+  <brewers>Mike, Nick and Don</brewers>
+  <ingredients>
+    <fermentables>
+       <malt>
+          <type>Pale 2-Row (Canadian)</type>
+          <qty units="kg">4.00</qty>
+          <added>mash</added>
+       </malt>
+       <malt>
+         <type>Crystal</type>
+         <qty units="kg">0.50</qty>
+          <added>mash</added>
+       </malt>
+       <malt>
+         <type>Chocolate</type>
+         <qty units="kg">0.25</qty>
+          <added>mash</added>
+       </malt>
+    </fermentables>
+    <flavourings>
+      <hop>
+        <type>Northern Brewer</type>
+        <acid>6.3</acid>
+        <qty units="g">50</qty>
+        <added>60 min</added>
+      </hop>
+      <hop>
+        <type>Cascade</type>
+        <acid>5.4</acid>
+        <qty units="g">12</qty>
+        <added>15 min</added>
+      </hop>
+    </flavourings>
+    <yeast>
+      <type>British Ale (Wyeast 1098)</type>
+      <qty units="smackpack">1</qty>
+      <added>Primary</added>
+    </yeast>
+    <priming>
+      <type>Dextrose</type>
+      <qty units="cup">0.5</qty>
+    </priming>
+  </ingredients>
+  <stats>
+    <sg>1040</sg>
+    <fg>1011</fg>
+    <attenuation>72.5%</attenuation>
+    <extract>64%</extract>
+    <colour>45.5</colour>
+    <ibu>39.2</ibu>
+  </stats>
+  <log>
+    <summary>
+      <type>Step Controlled Mash</type>
+      <mashin>
+        <temp units="C">18</temp>
+        <thickness units="l/kg">2.53</thickness> 
+      </mashin>
+      <protein>
+        <temp units="C">56</temp>
+        <time>30 min</time>
+      </protein>
+      <sacharification>
+        <temp units="C">66</temp>
+        <time>53 min</time>
+      </sacharification>
+      <mashout>
+        <temp units="C">80</temp>
+        <time>15 min</time>
+      </mashout>
+      <sparge>
+        <time>30 min</time>        
+      </sparge>
+      <preboil>
+        <time>52 min</time>        
+      </preboil>
+      <boil>
+        <time>97 min</time>
+      </boil>
+      <chill>
+        <time>37 min</time>
+      </chill>
+      <primary>
+        <time>7 days</time>
+      </primary>
+      <secondary>
+        <time>7 days</time>
+      </secondary>
+    </summary>
+    <action>
+      <time>3:37</time>
+      <temp units="C">18</temp>
+      <desc>Dough in 12 liters (heat on)</desc>
+    </action>
+    <action>
+      <time>4:14</time>
+      <temp units="C">55</temp>
+      <desc>Start Protein Rest (heat off)</desc>
+    </action>
+    <action>
+      <time>4:44</time>
+      <temp units="C">56</temp>
+      <desc>End Protein Rest (heat on)</desc>
+    </action>
+    <action>
+      <time>4:58</time>
+      <temp units="C">66</temp>
+      <desc>Start Sacharification Rest (heat off)</desc>
+    </action>
+    <action>
+      <time>5:51</time>
+      <temp units="C">65</temp>
+      <desc>End Sacharification Rest (heat on)</desc>
+    </action>
+    <action>
+      <time>6:23</time>
+      <temp units="C">80</temp>
+      <desc>Start Mash Out (heat off)</desc>
+    </action>
+    <action>
+      <time>6:38</time>
+      <desc>Start Sparge (recirculate 6 liters)</desc>
+    </action>
+    <action>
+      <time>7:08</time>
+      <desc>End Sparge (heat on)</desc>
+    </action>
+    <action>
+      <time>8:00</time>
+      <temp units="C">100</temp>
+      <desc>At a boil</desc>
+    </action>
+    <action>
+      <time>8:30</time>
+      <temp units="C">100</temp>
+      <desc>Add first hop addition</desc>
+    </action>
+    <action>
+      <time>9:16</time>
+      <temp units="C">100</temp>
+      <desc>Add second hop addition</desc>
+    </action>
+    <action>
+      <time>9:37</time>
+      <temp units="C">100</temp>
+      <desc>Start chiller</desc>
+    </action>
+    <action>
+      <time>10:14</time>
+      <temp units="C">19</temp>
+      <desc>Chill Finished</desc>
+    </action>
+    <action>
+      <time>10:22</time>
+      <desc>Top up and pitch yeast. SG 1040</desc>
+    </action>
+    <action>
+      <time>Day 1</time>
+      <desc>Rack - Krausen just starting</desc>
+    </action>
+    <action>
+      <time>Day 7</time>
+      <desc>Rack - Krausen done, cloudy.  Tastes good.</desc>
+    </action>
+    <action>
+      <time>Day 14</time>
+      <desc>Clear. FG 1011. Bottle 0.5 cups dextrose priming</desc>
+    </action>
+  </log>
+  <notes>
+    <p>
+    Can't really remember much about this beer.  Didn't write any
+    notes down about it.  I remember it was fairly tasty.  We drank
+    it quite quickly, so it must have been good.
+    </p>
+  </notes>
+</beer> 

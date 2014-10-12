@@ -1,0 +1,104 @@
+<?xml version="1.0" standalone="no" ?>
+<?xml-stylesheet type="text/xsl" href="brewfar1.xsl" ?>
+<!DOCTYPE beer SYSTEM "beer.dtd">
+<beer>
+  <name>Charlton's Bitter</name>
+  <style>Ordinary Bitter</style>
+  <first-brewed>July 23, 2004</first-brewed>
+  <brewers>Mike</brewers>
+  <ingredients>
+	<fermentables>
+	  <malt>
+		<type>Fawcett Maris Otter Pale Ale</type>
+		<qty units="kg">2.7</qty>
+		<added>mash</added>
+	  </malt>
+	  <malt>
+		<type>Wyermann Dark Munich</type>
+		<qty units="kg">0.3</qty>
+		<added>mash</added>
+	  </malt>
+	  <malt>
+		<type>Hugh Baird Wheat Malt</type>
+		<qty units="kg">0.3</qty>
+		<added>mash</added>
+	  </malt>
+	  <malt>
+		<type>Fawcett Dark Crystal</type>
+		<qty units="kg">0.2</qty>
+		<added>mash</added>
+	  </malt>
+	</fermentables>
+	<flavourings>
+	  <hop>
+		<type>Goldings (American)</type>
+		<acid>4.25%</acid>
+		<qty units="g">40</qty>
+		<added>60 min</added>
+	  </hop>
+	  <hop>
+		<type>EKG</type>
+		<acid>5.9%</acid>
+		<qty units="g">10</qty>
+		<added>30 min</added>
+	  </hop>
+	  <hop>
+		<type>EKG</type>
+		<acid>5.9%</acid>
+		<qty units="g">10</qty>
+		<added>15 min</added>
+	  </hop>
+	  <hop>
+		<type>EKG</type>
+		<acid>5.9%</acid>
+		<qty units="g">10</qty>
+		<added>0 min</added>
+	  </hop>
+	</flavourings>
+	<yeast>
+	  <type>S-04</type>
+	  <qty units="g">12g</qty>
+	  <added>primary</added>
+	</yeast>
+	<priming>
+	  <type>TBD</type>
+	  <qty units="cup">TBD</qty>
+	</priming>
+  </ingredients>
+  <stats>
+	<sg>35</sg>
+	<fg>(est) 9</fg>
+	<attenuation>75%</attenuation>
+	<extract>75%</extract>
+	<colour>9.3</colour>
+	<ibu>31.2</ibu>
+  </stats>
+  <log>
+	<summary>
+	  <type>Infusion Mash</type>
+	  <mashin>
+		<temp units="C">70</temp>
+		<thickness units="l/kg">2.7</thickness>
+	  </mashin>
+	  <sacharification>
+		<temp units="C">70</temp>
+		<time>60 min</time>
+	  </sacharification>
+	  <mashout>
+		<temp units="C">75</temp>
+		<time>15</time>
+	  </mashout>
+	</summary>
+	<action>
+	  <time>0:00</time>
+	  <temp units="C">170</temp>
+	  <desc>Infuse with 9.45 L @ 77.4 C</desc>
+	</action>
+	<action>
+	  <time>1:00</time>
+	  <temp units="C">175</temp>
+	  <desc>Infuse with 2.17 L @ Boiling</desc>
+	</action>
+  </log>
+  <notes></notes>
+</beer>

@@ -1,0 +1,49 @@
+<!ELEMENT beer (name, style, first-brewed, brewers, ingredients, stats, log, notes)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT style (#PCDATA)>
+<!ELEMENT first-brewed (#PCDATA)>
+<!ELEMENT brewers (#PCDATA)>
+<!ELEMENT ingredients (fermentables,flavourings,yeast+,priming)>
+<!ELEMENT fermentables (malt*)>
+<!ELEMENT malt (type, qty, added)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT qty (#PCDATA)>
+<!ATTLIST qty
+          units CDATA #REQUIRED>
+<!ELEMENT added (#PCDATA)>
+<!ELEMENT flavourings (hop*)>
+<!ELEMENT hop (type,acid,qty,added)>
+<!ELEMENT acid (#PCDATA)>
+<!ELEMENT yeast (type,qty,added)>
+<!ELEMENT priming (type,qty)>
+<!ELEMENT stats (sg,fg,attenuation,extract,colour,ibu)>
+<!ELEMENT sg (#PCDATA)>
+<!ELEMENT fg (#PCDATA)>
+<!ELEMENT attenuation (#PCDATA)>
+<!ELEMENT extract (#PCDATA)>
+<!ELEMENT colour (#PCDATA)>
+<!ELEMENT ibu (#PCDATA)>
+<!ELEMENT log (summary,action*)>
+<!ELEMENT summary (type,mashin?,protein?,sacharification?,mashout?,sparge?,preboil?,boil?,chill?,primary?,secondary?)>
+<!ELEMENT mashin (temp,thickness)>
+<!ELEMENT thickness (#PCDATA)>
+<!ATTLIST thickness
+          units CDATA #REQUIRED>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT protein (temp,time)>
+<!ELEMENT sacharification (temp,time)>
+<!ELEMENT mashout (temp,time)>
+<!ELEMENT sparge (temp,time)>
+<!ELEMENT preboil (time)>
+<!ELEMENT boil (time)>
+<!ELEMENT chill (time)>
+<!ELEMENT primary (temp?,time)>
+<!ELEMENT secondary (temp?,time)>
+<!ELEMENT action (time,temp?,desc?)>
+<!ELEMENT temp (#PCDATA)>
+<!ATTLIST temp
+          units CDATA #REQUIRED>
+<!ELEMENT desc (#PCDATA)>
+<!ELEMENT notes (#PCDATA)>
+
+

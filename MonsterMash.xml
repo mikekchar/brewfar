@@ -1,0 +1,166 @@
+<?xml version="1.0" standalone="no" ?>
+<?xml-stylesheet type="text/xsl" href="brewfar1.xsl" ?>
+<!DOCTYPE beer SYSTEM "beer.dtd">
+<beer>
+  <name>Monster Mash Pale Ale</name>
+  <style>Pale Ale</style>
+  <first-brewed>July 6, 2003</first-brewed>
+  <brewers>Mike and Nick</brewers>
+  <ingredients>
+	<fermentables>
+	  <malt>
+		<type>2 row Pale Ale malt</type>
+		<qty units="kg">4.5</qty>
+		<added>mash</added>
+	  </malt>
+	  <malt>
+		<type>Munich malt</type>
+		<qty units="kg">0.5</qty>
+		<added>mash</added>
+	  </malt>
+	</fermentables>
+	<flavourings>
+	  <hop>
+		<type>Saaz</type>
+		<acid>3.6</acid>
+		<qty units="g">50</qty>
+		<added>Mash Hop</added>
+	  </hop>
+	  <hop>
+		<type>Saaz</type>
+		<acid>3.6</acid>
+		<qty units="g">70</qty>
+		<added>First Wort Hop</added>
+	  </hop>
+	</flavourings>
+	<yeast>
+	  <type>WYeast 1098</type>
+	  <qty units="Yeast Cake"></qty>
+	  <added>Primary</added>
+	</yeast>
+	<priming>
+	  <type>Dextrose</type>
+	  <qty units="cup">Unknown (probably 0.66)</qty>
+	</priming>
+  </ingredients>
+  <stats>
+	<sg>48</sg>
+	<fg>8</fg>
+	<attenuation>83%</attenuation>
+	<extract>77%</extract>
+	<colour>4.7</colour>
+	<ibu>32.3</ibu>
+  </stats>
+  <log>
+	<summary>
+	  <type>Step Controlled Mash</type>
+	  <mashin>
+		<temp units="C">21</temp>
+		<thickness units="2.8"></thickness>
+	  </mashin>
+	  <protein>
+		<temp units="C">58</temp>
+		<time>30 min</time>
+	  </protein>
+	  <sacharification>
+		<temp units="65">89 min</temp>
+		<time></time>
+	  </sacharification>
+	  <mashout>
+		<temp units="C">90</temp>
+		<time>22 min</time>
+	  </mashout>
+	  <sparge>
+		<temp units="C">76</temp>
+		<time>23 min</time>
+	  </sparge>
+	  <preboil>
+		<time>51 min</time>
+	  </preboil>
+	  <boil>
+		<time>61 min</time>
+	  </boil>
+	  <chill>
+		<time>30 min</time>
+	  </chill>
+	  <primary>
+		<time>7 days</time>
+	  </primary>
+	  <secondary>
+		<time>7 days</time>
+	  </secondary>
+	</summary>
+	<action>
+	  <time>2:21</time>
+	  <temp units="C">21</temp>
+	  <desc>Dough in 14L</desc>
+	</action>
+	<action>
+	  <time>2:59</time>
+	  <temp units="C">56</temp>
+	  <desc>Heat off</desc>
+	</action>
+	<action>
+	  <time>3:29</time>
+	  <temp units="C">58</temp>
+	  <desc>Heat on</desc>
+	</action>
+	<action>
+	  <time>3:40</time>
+	  <temp units="C">65</temp>
+	  <desc>Heat off</desc>
+	</action>
+	<action>
+	  <time>4:54</time>
+	  <temp units="C">64</temp>
+	  <desc>Heat on</desc>
+	</action>
+	<action>
+	  <time>5:23</time>
+	  <temp units="C">90</temp>
+	  <desc>Heat off</desc>
+	</action>
+	<action>
+	  <time>5:45</time>
+	  <temp units="C">76</temp>
+	  <desc>Start Sparge -- recirculate 6 liters</desc>
+	</action>
+	<action>
+	  <time>6:08</time>
+	  <temp units="C">66</temp>
+	  <desc>End Sparge</desc>
+	</action>
+	<action>
+	  <time>6:59</time>
+	  <desc>Boil Start</desc>
+	</action>
+	<action>
+	  <time>8:00</time>
+	  <desc>Boil End</desc>
+	</action>
+	<action>
+	  <time>8:30</time>
+	  <temp units="C">20</temp>
+	  <desc>Chill end</desc>
+	</action>
+	<action>
+	  <time>9:05</time>
+	  <desc>Done</desc>
+	</action>
+	<action>
+	  <time>Day 7</time>
+	  <desc>Racked</desc>
+	</action>
+  </log>
+  <notes>
+  This was the big experiment with mash hopping and first wort
+  hopping.  Our conclusion was that FWH was useful from at least
+  a convenience point of view and that mash hopping didn't work
+  for us at all.  There is *no* saaz character to this beer.
+  For all that, it's a nice beer.  One or two of the bottles got
+  infected.  The yeast is all wrong for this beer, and the hops
+  don't come out at all.  I wouldn't do this one again.  BTW, notice
+  that our subsequent repitchings of 1098 are resulting in higher
+  attenuation.
+  </notes>
+</beer>

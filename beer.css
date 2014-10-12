@@ -1,0 +1,31 @@
+h1,h2,h3 {
+  font-family: "Courier", monospace;
+}
+
+table {
+  border-width: thin;
+  border-style: groove;
+  padding: 2px;
+}
+
+td {
+  padding: 2px 5px;
+}
+
+.stats {
+  float: right;
+  clear: right;
+}
+
+.summary {
+  float: right;
+}
+
+.pic {
+  float: right;
+}
+
+h2 {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}

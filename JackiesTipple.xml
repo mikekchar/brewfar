@@ -1,0 +1,94 @@
+<?xml version="1.0" standalone="no" ?>
+<?xml-stylesheet type="text/xsl" href="brewfar1.xsl" ?>
+<!DOCTYPE beer SYSTEM "beer.dtd">
+<beer>
+  <name>Jackie's Tipple</name>
+  <style>Scottish Export</style>
+  <first-brewed>September 19, 2004</first-brewed>
+  <brewers>Mike and Suds</brewers>
+  <ingredients>
+	<fermentables>
+	  <malt>
+		<type>Fawcett Marris Otter</type>
+		<qty units="kg">4.8</qty>
+		<added>mash</added>
+	  </malt>
+	  <malt>
+		<type>Roast Barley</type>
+		<qty units="g">30</qty>
+		<added>Mash</added>
+	  </malt>
+	</fermentables>
+	<flavourings>
+	  <hop>
+		<type>Goldings (American pellets)</type>
+		<acid>4.75</acid>
+		<qty units="g">28</qty>
+		<added>60</added>
+	  </hop>
+	  <hop>
+		<type>Norther Brewer (German plugs)</type>
+		<acid>7.4</acid>
+		<qty units="g">14</qty>
+		<added>20</added>
+	  </hop>
+	</flavourings>
+	<yeast>
+	  <type>Cooper's Gold Foil</type>
+	  <qty units="packages">2</qty>
+	  <added>TBD</added>
+	</yeast>
+	<priming>
+	  <type>TBD</type>
+	  <qty units="cups">TBD</qty>
+	</priming>
+  </ingredients>
+  <stats>
+	<sg>1.054</sg>
+	<fg>1.015</fg>
+	<attenuation>72</attenuation>
+	<extract>80</extract>
+	<colour>10.8</colour>
+	<ibu>24.3</ibu>
+  </stats>
+  <log>
+	<summary>
+	  <type>Infusion Mash</type>
+	  <mashin>
+		<temp units="C">70</temp>
+		<thickness units="l/kg">2.7</thickness>
+	  </mashin>
+	  <sacharification>
+		<temp units="C">70</temp>
+		<time>60 min</time>
+	  </sacharification>
+	  <mashout>
+		<temp units="C">75</temp>
+		<time>15</time>
+	  </mashout>
+	</summary>
+	<action>
+	  <time>0:00</time>
+	  <temp units="C">170</temp>
+	  <desc>Infuse with 13.04 L @ 77.4 C</desc>
+	</action>
+	<action>
+	  <time>1:00</time>
+	  <temp units="C">175</temp>
+	  <desc>Infuse with 3 L @ Boiling</desc>
+	</action>
+	<action>
+	  <time>1:15</time>
+	  <desc>Sparge with 12.31 L @ 75 C</desc>
+	</action>
+	<action>
+	  <time>1:30</time>
+	  <desc>Caramalize 4 L of first runnings</desc>
+	</action>
+	<action>
+	  <time>2:30</time>
+	  <desc>Boil.  Adjust wort to SG 47.6 @ 60 C</desc>
+	</action>
+  </log>
+  <notes></notes>
+</beer>

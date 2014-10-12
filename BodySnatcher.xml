@@ -1,0 +1,183 @@
+<?xml version="1.0" standalone="no" ?>
+<?xml-stylesheet type="text/xsl" href="brewfar1.xsl" ?>
+<!DOCTYPE beer SYSTEM "beer.dtd">
+<beer>
+  <name>Body Snatcher</name>
+  <style>Pale Ale</style>
+  <first-brewed>June 22, 2003</first-brewed>
+  <brewers>Mike, Nick, Don</brewers>
+  <ingredients>
+	<fermentables>
+	  <malt>
+		<type>2 Row Pale Ale (Canadian)</type>
+		<qty units="kg">4.75</qty>
+		<added>mash</added>
+	  </malt>
+	  <malt>
+		<type>Crystal Malt</type>
+		<qty units="kg">0.13</qty>
+		<added>mash</added>
+	  </malt>
+	</fermentables>
+	<flavourings>
+	  <hop>
+		<type>Goldings (American) pellets</type>
+		<acid>4.75</acid>
+		<qty units="g">30</qty>
+		<added>60 min</added>
+	  </hop>
+	  <hop>
+		<type>Fuggles (American) pellets</type>
+		<acid>5.0</acid>
+		<qty units="g">15</qty>
+		<added>60 min</added>
+	  </hop>
+	  <hop>
+		<type>Goldings (American) pellet</type>
+		<acid>4.75</acid>
+		<qty units="g">15</qty>
+		<added>15</added>
+	  </hop>
+	  <hop>
+		<type>Fuggles (American) pellets</type>
+		<acid>5.0</acid>
+		<qty units="g">8</qty>
+		<added>15 min</added>
+	  </hop>
+	</flavourings>
+	<yeast>
+	  <type>WYeast 1098 British Ale Yeast</type>
+	  <qty units="yeast cake"></qty>
+	  <added></added>
+	</yeast>
+	<priming>
+	  <type>Dextrose</type>
+	  <qty units="cup">0.66</qty>
+	</priming>
+  </ingredients>
+  <stats>
+	<sg>42</sg>
+	<fg>11</fg>
+	<attenuation>73.8%</attenuation>
+	<extract>68%</extract>
+	<colour>5.9</colour>
+	<ibu>28.7</ibu>
+  </stats>
+  <log>
+	<summary>
+	  <type>Step Infusion Mash</type>
+	  <mashin>
+		<temp units="C">18</temp>
+		<thickness units="kg/l">2.25</thickness>
+	  </mashin>
+	  <protein>
+		<temp units="C">57</temp>
+		<time>30 min</time>
+	  </protein>
+	  <sacharification>
+		<temp units="C">66</temp>
+		<time>60 min</time>
+	  </sacharification>
+	  <mashout>
+		<temp units="C">80</temp>
+		<time>24 min</time>
+	  </mashout>
+	  <sparge>
+		<temp units="C">80</temp>
+		<time>20 min</time>
+	  </sparge>
+	  <preboil>
+		<time>55 min</time>
+	  </preboil>
+	  <boil>
+		<time>90 min</time>
+	  </boil>
+	  <chill>
+		<time>43 min</time>
+	  </chill>
+	  <primary>
+		<time>14 days</time>
+	  </primary>
+	</summary>
+	<action>
+	  <time>2:39</time>
+	  <temp units="C">18</temp>
+	  <desc>12L Dough in</desc>
+	</action>
+	<action>
+	  <time>3:12</time>
+	  <temp units="C">55</temp>
+	  <desc>Heat off</desc>
+	</action>
+	<action>
+	  <time>3:42</time>
+	  <temp units="C">57</temp>
+	  <desc>Heat on</desc>
+	</action>
+	<action>
+	  <time>3:51</time>
+	  <temp units="C">65</temp>
+	  <desc>Heat off</desc>
+	</action>
+	<action>
+	  <time>4:00</time>
+	  <temp units="C">67</temp>
+	  <desc>Turned on heat for 3 min to boost temp</desc>
+	</action>
+	<action>
+	  <time>4:41</time>
+	  <temp units="C">65</temp>
+	  <desc>Heat on</desc>
+	</action>
+	<action>
+	  <time>5:01</time>
+	  <temp units="C">80</temp>
+	  <desc>Heat off</desc>
+	</action>
+	<action>
+	  <time>5:25</time>
+	  <desc>Start Sparge -- recirculate 6L</desc>
+	</action>
+	<action>
+	  <time>5:45</time>
+	  <desc>End Sparge</desc>
+	</action>
+	<action>
+	  <time>6:40</time>
+	  <desc>Wort boiling</desc>
+	</action>
+	<action>
+	  <time>7:09</time>
+	  <desc>First addition of hops</desc>
+	</action>
+	<action>
+	  <time>7:55</time>
+	  <desc>Second addition of hops</desc>
+	</action>
+	<action>
+	  <time>8:17</time>
+	  <desc>Start Chill</desc>
+	</action>
+	<action>
+	  <time>9:00</time>
+	  <desc>Done!!!</desc>
+	</action>
+	<action>
+	  <time>July 6</time>
+	  <desc>Bottle with 2/3 cup dextrose</desc>
+	</action>
+  </log>
+  <notes>
+  <p>
+  Supposedly a Boddington's clone.
+  This one worked out OK.  At bottling time, I thought this would be
+  one of the best beers I've ever made.  It was hoppy, crisp, with
+  some nice apple esters.  When it was conditioned, it was merely OK.
+  All the apple esters dissappeared.  To improve it, I'd add some more
+  hops in the middle of the boil and use a different yeast.  In
+  retrospect, I've come to dislike 1098.
+  </p>
+  </notes>
+</beer>
+
+
